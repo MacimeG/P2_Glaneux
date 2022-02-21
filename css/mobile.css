@@ -1,0 +1,836 @@
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    /* header{
+        padding-left: 10px;
+        padding-right: 10px;
+    } */
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    ul{
+        /* border-bottom: 2px solid #F2F2F2; */
+        width: 100%;
+    }
+
+   /* .li-one{
+    border-bottom: 2px solid #F2F2F2;
+   }
+   
+   .li-two{
+    border-bottom: 2px solid #F2F2F2;
+   } */
+    
+    .li-one .hebergement{
+        border-bottom: 2px solid #F2F2F2;
+        margin-right: 35px;
+        
+    }
+    .li-one .hebergement:focus{
+        border-top: none;
+        
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
+        /* border-bottom-color: #0065FC; */
+    }
+    .li-one .hebergement:active{
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+        color: #0065FC;
+    }
+
+    .li-two .activite{
+        border-bottom: 2px solid #F2F2F2;
+    }
+
+    .li-two .activite:focus{
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
+    }
+
+    .li-two .activite:active{
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
+    }
+
+
+
+    /* .hebergement{
+        margin-right: 35px;
+        
+    } */
+
+    /* ul .li-one{
+        border-bottom: 2px solid black;
+        width: 50%;
+    } */
+    
+   
+    /* .hebergement:active{
+        border-top: none;
+        color: #0065FC;
+        
+    }
+    
+    .hebergement:focus{
+        border-top: none;
+        
+        color: #0065FC;
+    }
+
+    .activite{
+        margin-left: 40px;
+        
+    }
+    .activite:active{
+        color: #0065FC;
+        border-top: none;
+    }   
+    .activite:focus{
+        color: #0065FC;
+        border-top: none;
+    }
+    .activite:hover{
+        border-top: none;
+    } */
+  
+
+    form{
+        margin-left: 0;
+        width: 98%;
+        /* padding-left: 130px; */
+    }
+    input{
+        width: inherit;
+    }
+    button{
+        display: none;
+    }
+
+    .responsiv{
+        display: block;
+        background-color: #0065FC;
+        width: 50px;
+        border-radius: 15px;
+    }
+    
+    .iSearch{
+        color: white;
+    }
+    main{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .titre{
+        background-color: white;
+        padding-left: 0px;
+    }
+    .img-pop{
+        object-fit: cover;
+    }
+    .article{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .article article{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+        padding: 8px;
+    }
+    .finBloc{
+        margin-left: 9px;
+    }
+
+   .filtre h3{
+      margin-right: 15px;
+   }
+   .filtre{
+       width: min-content;
+       flex-direction: column;
+       align-items: flex-start;
+        width: 100%;
+   }
+   .mobil{
+       display: flex;
+       flex-direction: row;
+   }
+   .filtre p{
+       margin-left: 0;
+       padding-left: 50px;
+   }
+   .pet{
+      width: max-content;
+   }
+   .titre{
+       width: 60%;
+   }
+   .titre h2{
+       margin-left: 34px;
+   }
+   .populaire{
+       margin-left: 0%;
+       width: 100%;
+       order: 1;
+       border-radius: 0px;
+   }
+   #iconBlack{
+       margin-left: 230px;
+   }
+   .tout{
+       height: 149px;
+       width: 63%;
+        margin-bottom: 3%;
+        margin-right: 21px;
+    }
+   .desc{
+       margin-left: 20px;
+   }
+   .desc p{
+       margin-bottom: 50px;
+   }
+   
+   .img-pop{
+    height: 150px;
+    width: 156px;
+   }
+
+   article{
+       width: 27%;
+   }
+   #activiter{
+       order: -1;
+       padding-left: 0px;
+   }
+   #activiter h2{
+       margin-left: 145px;
+   }
+   .allCarte{
+       flex-direction: column;
+       /* margin-left: 25%; */
+       align-items: center;
+   }
+   .carte{
+       width: 63%;
+       margin-bottom: 30px;
+   }
+   .activ{
+        width: -webkit-fill-available;
+        align-items: center;
+   }
+   .act1{
+    width: -webkit-fill-available;
+    height: 139px;
+    object-fit: cover;
+   }
+   .act2{
+    width: -webkit-fill-available;
+    height: 139px;
+    object-fit: cover;
+   }
+   .act3{
+    width: -webkit-fill-available;
+    height: 139px;
+    object-fit: cover;
+   }
+   .act4{
+    width: -webkit-fill-available;
+    height: 139px;
+    object-fit: cover;
+   }
+   .act5{
+    width: -webkit-fill-available;
+    height: 139px;
+    object-fit: cover;
+   }
+   .act6{
+    width: -webkit-fill-available;
+    height: 139px;
+    object-fit: cover;
+   }
+   footer{
+       flex-direction: column;
+       align-items: start;
+       width: 100%;
+   }
+   .propo{
+    padding-left: 30px;
+   }
+   .heberge{
+    padding-left: 30px;
+   }
+   .assist{
+    padding-left: 30px;
+   }
+}
+
+@media screen and (max-width: 565px) {
+    header{
+        /* margin-left: 2px; */
+        /* width: min-content; */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    main{
+        margin: 0;
+        /* width: 95%; */
+        /* margin-left: -16px; */
+        padding-left: 0px;
+        align-items: baseline;
+
+    }
+    /* nav{
+        padding-left: 67px;
+    } */
+    /* .logo{
+        height: max-content;
+    } */
+    form{
+        width: 98%;
+        margin-left: 0px;
+        /* padding-left: 20px; */
+    }
+    input{
+        width: inherit;
+    }
+    /* .formu{
+        padding-left: 2px;
+    } */
+    .titre{
+        width: 74%;
+        padding-left: 18px;
+    }
+    .titre h2{
+        margin-left: 56px;
+    }
+    .populaire{
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .article{
+        width: 86%;
+        /* margin-left: -29px; */
+        padding-left: 14px;
+    }
+    .article article{
+        width: 135%;
+        
+    }
+    .act1{
+        height: 162px;
+    }
+    .act2{
+        height: 162px;
+    }
+    .act3{
+        height: 162px;
+    }
+    .act4{
+        height: 162px;
+    }
+    .act5{
+        height: 162px;
+    }
+    .act6{
+        height: 162px;
+    }
+    #activiter h2{
+        margin-left: 32px;
+    }
+    #activiter{
+        padding-left: 4px;
+        width: 100%;
+    }
+    .allCarte{
+        align-items: baseline;
+        width: 100%;
+        padding-left: 29px;
+    }
+    .activ{
+        align-items: baseline;
+    }
+    #iconBlack{
+        margin-left: 215px;
+    }
+    .tout{
+        margin-bottom: 10px;
+        width: 85%;
+        margin-left: 33px;
+    }
+    .finBloc{
+        margin-left: 20px;
+    }
+    .descArt{
+        margin-left: 5px;
+    }
+    .nuitA{
+        margin-left: 5px;
+    }
+
+    .carte{
+        width: 88%;
+        /* margin-left: -10px; */
+    }
+    footer{
+        width: 101%;
+    }
+}
+
+@media screen and (max-width: 536px){
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        margin-left: 15px;
+    }
+    form{
+        width: 99%;
+        margin-left: 0px;
+    }
+    input{
+        width: inherit;
+    }
+    .article{
+        margin-left: -12px;
+    }
+    .article article{
+        width: 139%;
+    }
+    
+    .titre h2{
+        margin-left: 7px;
+    }
+    .finBloc{
+        margin-left: 20px;
+    }
+    .allCarte{
+       padding-left: 0px;
+    }
+    .carte{
+        width: 92%;
+        margin-left: 16px;
+    }
+    .populaire{
+        margin: 0;
+        width: 100%;
+        /* margin-left: 18px; */
+    }
+    .tout{
+        margin-left: 22px;
+    }
+    #activiter h2{
+        margin-left: 25px;
+    }
+    #iconBlack{
+        margin-left: 164px;
+    }
+}
+@media screen and (max-width: 521px){
+    nav{
+        margin-left: 25px;
+    }
+    form{
+        width: max-content;
+        margin-left: 0px;
+    }
+    input{
+        width: 380px;
+    }
+    .titre{
+        width: 50%;
+    }
+    .titre h2{
+        width: max-content;
+        margin-left: 18px;
+    }
+    .article{
+        margin-left: 0px;
+    }
+    .article article{
+        width: 200%;
+        padding: 8px;
+    }
+    #iconBlack{
+        margin-left: 170px;
+    }
+    .finBloc{
+        margin-left: 10px;
+    }
+    #activiter h2{
+        margin-left: 22px;
+    }
+}
+@media screen and (max-width: 505px){
+    form{
+        width: max-content;
+        margin-left: 0px;
+    }
+    input{
+        width: 370px;
+    }
+    .populaire h2{
+        margin-left: 0;
+    }
+    
+}
+
+@media screen and (max-width: 490px){
+    /* .logo{
+        width: 100px;
+    } */
+    nav{
+        margin-left: 0px;
+    }
+    form{
+        width: max-content;
+        margin-left: 0px;
+    }
+    input{
+        width: 360px;
+    }
+    .article article{
+        padding: 8px;
+        margin-left: -32px;
+        width: 191%;
+    }
+    .titre{
+        padding-left: 55px;
+    }
+    .titre h2{
+        margin-left: -12px;
+    }
+    .populaire h2{
+        margin-left: 10px;
+    }
+    .finBloc{
+        margin-left: -14px;
+    }
+    #activiter{
+        width: 112%;
+        padding-left: 54px;
+    }
+    #activiter h2{
+        margin-left: -15px;
+    }
+    .carte{
+        width: 76%;
+        margin-left: -20px;
+    }
+    footer{
+        width: 106%;
+    }
+}
+@media screen and (max-width: 468px){
+    /* header{
+        margin-left: 4px;
+        width: 100%;
+    } */
+    /* nav{
+        margin-left: 29px;
+    } */
+    form{
+        width: max-content;
+    }
+    
+    input{
+        width: 350px;
+    }
+    .titre{
+        width: 56%;
+        padding-left: 44px;
+    }
+    .titre h2{
+        margin-left: -5px;
+    }
+    .finBloc{
+        margin-left: -4px;
+    }
+    .populaire{
+        margin-left: 1px;
+        width: 100%;
+    }
+    .article article{
+        width: 169%;
+        margin-left: -22px;
+    }
+    /* .carte{
+        width: 79%;
+        margin-left: -33px;
+    } */
+    footer{
+        width: 111%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    nav{
+        margin-left: -1px;
+    }
+    .info{
+        width: 84%;
+    }
+    form{
+        width: max-content;
+    }
+    input{
+        width: 320px;
+    }
+    .tout{
+        width: 86%;
+        margin-left: -12px;
+    }
+    .titre{
+        padding-left: 20px;
+    }
+    ul{
+        /* border-bottom: 2px solid gray; */
+        width: 116%;
+    }
+    .hebergement{
+        margin-right: -22px;
+    }
+    .titre h2{
+        margin-left: 20px;
+        width: max-content;
+        margin-bottom: 24px;
+    }
+    .article article{
+        width: 168%;
+        margin-left: 0px;
+    }
+    .populaire h2{
+        margin-left: -50px;
+    }
+    #iconBlack{
+        margin-left: 118px;
+    }
+    .finBloc{
+        margin-left: 20px;
+    }
+    #activiter{
+        padding-left: 76px;
+    }
+    #activiter h2{
+        margin-left: -37px;
+    }
+    .allCarte{
+        margin-left: -24px;
+    }
+}
+
+@media screen and (max-width: 442px){
+    header{
+        width: min-content;
+        margin-left: 15px;
+    }
+    nav{
+        margin-left: 20px;
+    }
+    form{
+        width: max-content;
+        margin-left: 3px;
+    }
+    ul{
+        width: 130%;
+    }
+    .li-one:active{
+        border-bottom: 2px solid #0065FC;
+    }
+    
+    .li-two:active{
+        border-bottom: 2px solid #0065FC;
+    }
+    .hebergement{
+        margin-right: 15px;
+    }
+    .activite{
+        margin-left: 35px;
+    }
+    .formu{
+        margin-left: -13px;
+    }
+    input{
+        width: 295px;
+    }
+    .tout{
+        width: 86%;
+        margin-left: -12px;
+    }
+    .populaire{
+        width: 102%;
+        margin-left: 0px;
+    }
+    .populaire h2{
+        margin-left: -19px;
+    }
+    /* #iconBlack{
+        margin-left: 206px;
+    } */
+    .titre{
+        margin-left: -7px;
+    }
+    .titre h2{
+        margin-left: 18px;
+    }
+    .finBloc{
+        margin-left: 19px;
+    }
+    
+    .article article{
+        width: 175%;
+    }
+    .carte{
+        width: 78%;
+        margin-left: -41px;
+    }
+    .allCarte{
+        margin-left: -7px
+    }
+    #activiter h2{
+        margin-left: -44px;
+    }
+    footer{
+        width: 118%;
+    }
+}
+
+@media screen and (max-width: 411px){
+    nav{
+        margin-left: 18px;
+    }
+    form{
+        max-width: max-content;
+        margin-left: -7px;
+    }
+    input{
+        width: 250px;
+    }
+    .formu{
+        margin-left: 13px;
+    }
+    .hebergement{
+        margin-right: 33px;
+    }
+    .activite{
+        margin-left: 50px;
+    }
+    .article article{
+        width: 166%;
+        margin-left: -42px;
+    }
+    .titre h2{
+        margin-left: 25px;
+    }
+    .finBloc{
+        margin-left: 25px;
+    }
+    .article{
+        margin-left: 52px;
+    }
+    .populaire{
+        width: 115%;
+        margin-left: -30px;
+    }
+    .tout{
+        width: 80%;
+        margin-left: 0px;
+        padding: 8px;
+    }
+    .populaire h2{
+        margin-left: -5px;
+    }
+    .carte{
+        margin-left: -31px;
+        width: 75%;
+    }
+    #activiter h2{
+        margin-left: -38px;
+    }
+    #iconBlack{
+        margin-left: 122px;
+    }
+    .desc{
+        margin-left: 8px;
+
+    }
+    /* .tout{
+        margin-left: 13px;
+    } */
+    footer{
+        width: 122%;
+    }
+}
+
+@media screen and (max-width: 388px){
+    header{
+        margin-left: 5px;
+    }
+    nav{
+        margin-left: 27px;
+    }
+    form{
+        margin-left: -5px;
+    }
+    .formu{
+        margin-left: 4px;
+    }
+    .tout{
+        width: 80%;
+    }
+    .img-pop{
+        width: 133px;
+        object-fit: cover;
+    }
+    .finBloc{
+        margin-left: 23px;
+    }
+    /* .titre{
+        margin-left: -284px;
+    } */
+    .titre h2{
+        margin-left: 26px;
+    }
+    .article{
+        margin-left: 47px;
+    }
+    .populaire{
+        width: 115%;
+        margin-left: -26px;
+    }
+    .populaire h2{
+        margin-left: 0px;
+    }
+    #iconBlack{
+        margin-left: 100px;
+    }
+    #activiter{
+        padding-left: 72px;
+    }
+    .desc{
+        margin-left: 7px;
+    }
+    .allCarte{
+        margin-left: -11px;
+    }
+    .li-one{
+        padding-left: 30%;
+    }
+    .li-two{
+        padding-right: 35%;
+    }
+    .hebergement{
+        margin-right: 17px;
+    }
+    .activite{
+        margin-left: 16px;
+        padding-left: 10px;
+    }
+}
