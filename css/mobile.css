@@ -24,8 +24,8 @@
    } */
     
     .li-one .hebergement{
-        border-bottom: 2px solid #F2F2F2;
-        margin-right: 35px;
+        border-bottom: 3px solid #F2F2F2;
+        margin-right: 0px;
         
     }
     .li-one .hebergement:focus{
@@ -42,7 +42,8 @@
     }
 
     .li-two .activite{
-        border-bottom: 2px solid #F2F2F2;
+        border-bottom: 3px solid #F2F2F2;
+        margin-left: 0px;
     }
 
     .li-two .activite:focus{
@@ -702,6 +703,36 @@
     }
 }
 
+
+/* version Responsive: iPhone XR */
+@media screen and (max-width: 415px){
+    nav{
+        margin-left: 0px;
+        padding-left: 15px;
+    }
+    form{
+        margin-left: 0px;
+    }
+    input{
+        width: 273px;
+    }
+    .titre{
+        margin-left: -19px;
+    }
+    .tout{
+        width: 87%;
+        margin-left: -9px;
+    }
+    .img-pop{
+        width: 150px;
+    }
+    .desc{
+        margin-left: 4px;
+    }
+    #activiter{
+        padding-left: 63px;
+    }
+}
 @media screen and (max-width: 411px){
     nav{
         margin-left: 18px;
@@ -769,7 +800,8 @@
     }
 }
 
-@media screen and (max-width: 388px){
+/* Responsive iPhone 12 Pro */
+@media screen and (max-width: 391px){
     header{
         margin-left: 5px;
     }
@@ -784,6 +816,9 @@
     }
     .tout{
         width: 80%;
+    }
+    .titre{
+        margin-left: -13px;
     }
     .img-pop{
         width: 133px;
@@ -819,12 +854,6 @@
     }
     .allCarte{
         margin-left: -11px;
-    }
-    .li-one{
-        padding-left: 30%;
-    }
-    .li-two{
-        padding-right: 35%;
     }
     .hebergement{
         margin-right: 17px;

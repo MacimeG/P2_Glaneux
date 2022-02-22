@@ -275,6 +275,8 @@ main{
 .finBloc{
     margin-bottom: 4%;
     margin-top: 0;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .article{
@@ -368,7 +370,7 @@ article{
     flex-direction: column;
     align-items: center;
     background-color: #F2F2F2;
-    margin-left: 3%;
+    margin-left: 4%;
     width: 28%;
     border-radius: 25px;
     /* justify-content: space-around; */
@@ -521,22 +523,20 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 5%;
     padding-bottom: 2%;
 }
 
-/* .propo{
-    width: 30%;
-} */
-
-/* .heberge{
-    width: 30%;
+.propo{
+    padding-right: 30px;
 }
 
+
+
 .assist{
-    width: 30%;
-} */
+    padding-right: 241px;
+}
 
 
 
