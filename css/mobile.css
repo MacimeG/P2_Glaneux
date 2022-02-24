@@ -11,19 +11,83 @@
         align-items: center;
     }
     ul{
-        /* border-bottom: 2px solid #F2F2F2; */
+        /* border-bottom: 2px solid black; */
         width: 100%;
     }
-
-   /* .li-one{
-    border-bottom: 2px solid #F2F2F2;
-   }
-   
-   .li-two{
-    border-bottom: 2px solid #F2F2F2;
-   } */
+    header {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
     
-    .li-one .hebergement{
+    header #logo {
+        margin: auto;
+    }
+    
+    header nav ul {
+        margin: 0px -20px;
+        padding: 0;
+        border-top: none;
+        padding-top: 15px;
+    }
+    .li-one{
+        padding: 0px;
+    }
+    .li-two{
+        padding: 0px;
+    }
+
+    .li-one .hebergement:active,
+    .li-one .hebergement:focus{
+        border-top: none;
+    }
+
+    .li-two .activite:active,
+    .li-two .activite:focus{
+        border-top: none;
+    }
+    
+    
+    header nav ul li {
+        width: 50%;
+        text-align: center;
+        margin: 0px;
+        border-top: none;
+        border-bottom: 2px solid #f2f2f2;
+        padding: 15px;
+    }
+    header nav ul li:hover {
+        border-color: #0065fc;
+      }
+      
+      header nav ul li:hover a {
+        color: #0065fc;
+      }
+
+
+    /* .li-one .hebergement{
+        margin-right: 0px;
+    }
+
+    
+
+   ul .li-one{
+    border-bottom: 2px solid black;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+    } 
+
+    ul .li-two{
+        border-bottom: 2px solid black;
+        margin-right: 0px;
+    } */
+
+
+
+    /* A NE PAS SUPPRIMER !!!!!! */
+
+    /* .li-one .hebergement{
         border-bottom: 2px solid black;
         margin-right: 0px;
         
@@ -33,7 +97,7 @@
         
         border-bottom: 2px solid #0065FC;
         color: #0065FC;
-        /* border-bottom-color: #0065FC; */
+        
     }
     .li-one .hebergement:active{
         border-bottom: 2px solid #0065FC;
@@ -56,7 +120,20 @@
         border-top: none;
         border-bottom: 2px solid #0065FC;
         color: #0065FC;
-    }
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -102,7 +179,7 @@
 
     form{
         margin-left: 0;
-        width: 98%;
+        width: 97%;
         /* padding-left: 130px; */
     }
     input{
@@ -111,7 +188,9 @@
     button{
         display: none;
     }
-
+    .formu{
+        padding-left: 20px;
+    }
     .responsiv{
         display: block;
         background-color: #0065FC;
@@ -131,9 +210,6 @@
         background-color: white;
         padding-left: 0px;
     }
-    .img-pop{
-        object-fit: cover;
-    }
     .article{
         flex-direction: column;
         align-items: center;
@@ -146,9 +222,7 @@
         margin-bottom: 30px;
         padding: 8px;
     }
-    .finBloc{
-        margin-left: 9px;
-    }
+    
 
    .filtre h3{
       margin-right: 15px;
@@ -158,6 +232,7 @@
        flex-direction: column;
        align-items: flex-start;
         width: 100%;
+        padding-left: 20px;
    }
    .mobil{
        display: flex;
@@ -171,10 +246,12 @@
       width: max-content;
    }
    .titre{
-       width: 60%;
+    width: 89%;
+    padding: 0px;
+    padding-right: 17px;
    }
    .titre h2{
-       margin-left: 34px;
+       margin-left: 4px;
    }
    .populaire{
        margin-left: 0%;
@@ -182,14 +259,18 @@
        order: 1;
        border-radius: 0px;
    }
+   .populaire h2{
+        padding-right: 5px;
+   }
    #iconBlack{
-       margin-left: 230px;
+       margin-left: 454px;
    }
    .tout{
        height: 149px;
-       width: 63%;
+       width: 90%;
         margin-bottom: 3%;
-        margin-right: 21px;
+        padding-left: 0px;
+        
     }
    .desc{
        margin-left: 20px;
@@ -199,8 +280,9 @@
    }
    
    .img-pop{
+    object-fit: cover;
     height: 150px;
-    width: 156px;
+    width: 203px;
    }
 
    article{
@@ -211,7 +293,7 @@
        padding-left: 0px;
    }
    #activiter h2{
-       margin-left: 145px;
+       margin-left: 36px;
    }
    .allCarte{
        flex-direction: column;
@@ -219,8 +301,8 @@
        align-items: center;
    }
    .carte{
-       width: 63%;
-       margin-bottom: 30px;
+        width: 91%;
+        margin-bottom: 30px;
    }
    .activ{
         width: -webkit-fill-available;
@@ -262,48 +344,39 @@
        width: 100%;
    }
    .propo{
-    padding-left: 30px;
+    padding-left: 35px;
    }
    .heberge{
-    padding-left: 30px;
+    padding-left: 35px;
    }
    .assist{
-    padding-left: 30px;
+    padding-left: 35px;
    }
 }
 
-@media screen and (max-width: 565px) {
+/* @media screen and (max-width: 565px) {
     header{
-        /* margin-left: 2px; */
-        /* width: min-content; */
+      
         padding-left: 10px;
         padding-right: 10px;
     }
     main{
         margin: 0;
-        /* width: 95%; */
-        /* margin-left: -16px; */
+       
         padding-left: 0px;
         align-items: baseline;
 
     }
-    /* nav{
-        padding-left: 67px;
-    } */
-    /* .logo{
-        height: max-content;
-    } */
+    
     form{
         width: 98%;
         margin-left: 0px;
-        /* padding-left: 20px; */
+        
     }
     input{
         width: inherit;
     }
-    /* .formu{
-        padding-left: 2px;
-    } */
+    
     .titre{
         width: 74%;
         padding-left: 18px;
@@ -318,7 +391,7 @@
     
     .article{
         width: 86%;
-        /* margin-left: -29px; */
+        
         padding-left: 14px;
     }
     .article article{
@@ -378,7 +451,6 @@
 
     .carte{
         width: 88%;
-        /* margin-left: -10px; */
     }
     footer{
         width: 101%;
@@ -422,7 +494,7 @@
     .populaire{
         margin: 0;
         width: 100%;
-        /* margin-left: 18px; */
+        
     }
     .tout{
         margin-left: 22px;
@@ -433,8 +505,8 @@
     #iconBlack{
         margin-left: 164px;
     }
-}
-@media screen and (max-width: 521px){
+} */
+/* @media screen and (max-width: 521px){
     nav{
         margin-left: 25px;
     }
@@ -468,8 +540,8 @@
     #activiter h2{
         margin-left: 22px;
     }
-}
-@media screen and (max-width: 505px){
+} */
+/* @media screen and (max-width: 505px){
     form{
         width: max-content;
         margin-left: 0px;
@@ -481,12 +553,10 @@
         margin-left: 0;
     }
     
-}
+} */
 
-@media screen and (max-width: 490px){
-    /* .logo{
-        width: 100px;
-    } */
+/* @media screen and (max-width: 490px){
+    
     nav{
         margin-left: 0px;
     }
@@ -528,15 +598,9 @@
     footer{
         width: 106%;
     }
-}
-@media screen and (max-width: 468px){
-    /* header{
-        margin-left: 4px;
-        width: 100%;
-    } */
-    /* nav{
-        margin-left: 29px;
-    } */
+} */
+/* @media screen and (max-width: 468px){
+    
     form{
         width: max-content;
     }
@@ -562,16 +626,13 @@
         width: 169%;
         margin-left: -22px;
     }
-    /* .carte{
-        width: 79%;
-        margin-left: -33px;
-    } */
+    
     footer{
         width: 111%;
     }
-}
+} */
 
-@media screen and (max-width: 460px){
+/* @media screen and (max-width: 460px){
     nav{
         margin-left: -1px;
     }
@@ -592,7 +653,7 @@
         padding-left: 20px;
     }
     ul{
-        /* border-bottom: 2px solid gray; */
+        
         width: 116%;
     }
     .hebergement{
@@ -625,9 +686,9 @@
     .allCarte{
         margin-left: -24px;
     }
-}
+} */
 
-@media screen and (max-width: 442px){
+/* @media screen and (max-width: 442px){
     header{
         width: min-content;
         margin-left: 15px;
@@ -640,15 +701,9 @@
         margin-left: 3px;
     }
     ul{
-        width: 130%;
-    }
-    .li-one:active{
-        border-bottom: 2px solid #0065FC;
+        width: 100%;
     }
     
-    .li-two:active{
-        border-bottom: 2px solid #0065FC;
-    }
     .hebergement{
         margin-right: 15px;
     }
@@ -672,9 +727,7 @@
     .populaire h2{
         margin-left: -19px;
     }
-    /* #iconBlack{
-        margin-left: 206px;
-    } */
+   
     .titre{
         margin-left: -7px;
     }
@@ -701,11 +754,11 @@
     footer{
         width: 118%;
     }
-}
+} */
 
 
 /* version Responsive: iPhone XR */
-@media screen and (max-width: 415px){
+/* @media screen and (max-width: 415px){
     nav{
         margin-left: 0px;
         padding-left: 15px;
@@ -732,8 +785,9 @@
     #activiter{
         padding-left: 63px;
     }
-}
-@media screen and (max-width: 411px){
+} */
+
+/* @media screen and (max-width: 411px){
     nav{
         margin-left: 18px;
     }
@@ -792,16 +846,14 @@
         margin-left: 8px;
 
     }
-    /* .tout{
-        margin-left: 13px;
-    } */
+    
     footer{
         width: 122%;
     }
-}
+} */
 
 /* Responsive iPhone 12 Pro */
-@media screen and (max-width: 391px){
+/* @media screen and (max-width: 391px){
     header{
         margin-left: 5px;
     }
@@ -827,9 +879,7 @@
     .finBloc{
         margin-left: 23px;
     }
-    /* .titre{
-        margin-left: -284px;
-    } */
+    
     .titre h2{
         margin-left: 26px;
     }
@@ -862,11 +912,11 @@
         margin-left: 16px;
         padding-left: 10px;
     }
-}
+} */
 
 /* Responsive iPhone SE */
 
-@media screen and (max-width: 376px){
+/* @media screen and (max-width: 376px){
     nav{
         margin-left: 7px;
     }
@@ -880,4 +930,4 @@
     .img-pop{
         width: 125px;
     }
-}
+} */

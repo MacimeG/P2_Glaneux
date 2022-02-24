@@ -7,46 +7,37 @@
     header{
         display: flex;
         flex-direction: column;
-        padding-left: 15px;
-        /* padding-right: 15px; */
-
     }
     nav{
         display: flex;
         justify-content: space-between;
-        /* width: 100%; */
+        
     }
-    /* .logo{
-        width: 15%;
-        height: 50px;
-    } */
+   
     .filtre{
-        /* display: flex;
-        flex-direction: row; */
-        width: 100%;
+        width: max-content;
         margin-left: 10px;
     }
     .filtre p{
-        /* margin-left: 0px;
-        margin-right: 4%;
-        padding-left: 6%; */
         margin-left: 0;
-    margin-right: 10px;
-    padding-left: 40px;
+        margin-right: 10px;
+        padding-left: 40px;
     }
    
     main{
         width: 100%;
-        /* margin-right: 0px; */
+       
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        /* margin-left: 5px; */
         padding-left: 0px;
     }
     .titre{
         width: 55%;
         margin-left: 0;
+    }
+    .article article{
+        height: auto;
     }
     
     .populaire{
@@ -58,7 +49,7 @@
     }
     #activiter{
         width: 100%;
-        /* margin-left: 10px; */
+        
         padding-top: 3%;
         padding-left: 15px;
     }
@@ -66,11 +57,11 @@
         justify-content: space-around;
     }
     .carte{
-        height: min-content;
-        width: min-content;
+        /* height: min-content; */
+        width: 100%;
         padding: 0;
     }
-    .act1{
+    /* .act1{
         width:  200px;
     }
     .act2{
@@ -87,22 +78,25 @@
     }
     .act6{
         width:  200px;
-    }
+    } */
     footer{
-        width: 101%;
+        width: 100%;
+    }
+
+    .propo,
+    .assist{
+        padding-right: 0px;
     }
    
 }
 
-@media screen and (max-width: 900px){
-   /* nav{
-       width: 110%;
-   } */
+/* @media screen and (max-width: 900px){
+  
    main{
        justify-content: space-around;
    }
    footer{
-       /* width: 110%; */
+      
        justify-content: space-between;
    }
    .filtre{
@@ -110,9 +104,7 @@
        width: 100%;
    }
    .filtre p{
-    /* margin-left: 0px;
-    margin-right: 2%;
-    padding-left: 6%; */
+    
     margin-left: 0;
     margin-right: 10px;
     padding-left: 40px;
@@ -131,25 +123,19 @@
    .filtre{
     margin-left: 0px;
     width: 100%;
-    /* align-items: baseline; */
+    
    }
-   /* nav{
-       width: 100%;
-   } */
+   
    main{
        width: 100%;
    }
    .filtre p{
-    /* margin-left: 0px;
-    margin-right: 2%;
-    padding-left: 6%; */
+    
     margin-left: 0;
     margin-right: 10px;
     padding-left: 40px;
    }
-   /* .pet{
-       width: min-content;
-   } */
+   
 }
 
 @media screen and (max-width: 820px){
@@ -171,9 +157,7 @@
     article{
         width: 28%;
     }
-    /* .titre{
-        margin-left: 1px;
-    } */
+   
 
     .populaire{
         width: 35%;
@@ -184,7 +168,7 @@
     .allCarte{
         width: 100%;
     }
-}
+} */
 
 
 /* @media screen and (min-width: 768px){
