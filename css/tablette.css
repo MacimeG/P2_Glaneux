@@ -39,7 +39,9 @@
     .article article{
         height: auto;
     }
-    
+    .descArt1{
+        margin-top: 24px;
+    }
     .populaire{
         width: 35%;
         margin: 0;

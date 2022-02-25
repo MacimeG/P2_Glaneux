@@ -137,44 +137,7 @@
 
 
 
-    /* .hebergement{
-        margin-right: 35px;
-        
-    } */
-
-    /* ul .li-one{
-        border-bottom: 2px solid black;
-        width: 50%;
-    } */
-    
-   
-    /* .hebergement:active{
-        border-top: none;
-        color: #0065FC;
-        
-    }
-    
-    .hebergement:focus{
-        border-top: none;
-        
-        color: #0065FC;
-    }
-
-    .activite{
-        margin-left: 40px;
-        
-    }
-    .activite:active{
-        color: #0065FC;
-        border-top: none;
-    }   
-    .activite:focus{
-        color: #0065FC;
-        border-top: none;
-    }
-    .activite:hover{
-        border-top: none;
-    } */
+  
   
 
     form{
@@ -205,10 +168,6 @@
         width: 100%;
         flex-direction: column-reverse;
         align-items: center;
-    }
-    .titre{
-        background-color: white;
-        padding-left: 0px;
     }
     .article{
         flex-direction: column;
@@ -246,6 +205,8 @@
       width: max-content;
    }
    .titre{
+    background-color: white;
+    padding-left: 0px;
     width: 89%;
     padding: 0px;
     padding-right: 17px;
@@ -259,11 +220,14 @@
        order: 1;
        border-radius: 0px;
    }
-   .populaire h2{
+   /* .populaire h2{
         padding-right: 5px;
-   }
-   #iconBlack{
+   } */
+   /* #iconBlack{
        margin-left: 454px;
+   } */
+   .titre-populaire p{
+        white-space: pre;
    }
    .tout{
        height: 149px;
@@ -297,16 +261,20 @@
    }
    .allCarte{
        flex-direction: column;
-       /* margin-left: 25%; */
        align-items: center;
+       height: max-content;
    }
    .carte{
         width: 91%;
         margin-bottom: 30px;
    }
    .activ{
-        width: -webkit-fill-available;
+        width: 100%;
         align-items: center;
+   }
+   .bold{
+    padding-top: 0px;
+    padding-bottom: 15px;
    }
    .act1{
     width: -webkit-fill-available;
