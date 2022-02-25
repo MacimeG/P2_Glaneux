@@ -13,7 +13,10 @@
         justify-content: space-between;
         
     }
-   
+    
+    ul{
+        margin-right: 30px;
+    }
     .filtre{
         width: max-content;
         margin-left: 10px;

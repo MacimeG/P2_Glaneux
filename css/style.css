@@ -8,7 +8,6 @@ header{
     padding-left: 35px;
 }
 
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -32,38 +31,6 @@ a{
     text-decoration: none;
     color: black;
 }
-/* .hebergement{
-    margin-right: 75px;
-   
-} */
-
-/* .hebergement:active{
-    color: #0065FC;
-    border-top: 2px solid #0065FC;
-}
-
-.hebergement:hover{
-    border-top: 2px solid #0065FC;
-    color: #0065FC;
-}
-.hebergement:focus{
-    border-top: 2px solid #0065FC;
-    color: #0065FC;
-}
-
-.activite:active{
-    color: #0065FC;
-    border-top: 2px solid #0065FC;
-}
-
-.activite:hover{
-    border-top: 2px solid #0065FC;
-    color: #0065FC;
-}
-.activite:focus{
-    border-top: 2px solid #0065FC;
-    color: #0065FC;
-}   */
 
 .li-one .hebergement{
     margin-right: 75px;
@@ -96,16 +63,6 @@ a{
     border-top: 2px solid #0065FC;
     color: #0065FC;
 } 
-
-/* .li-two:hover{
-    border-top: 2px solid #0065FC;
-    color: #0065FC;
-}
-.li-two:focus{
-    border-top: 2px solid #0065FC;
-    color: #0065FC;
-}  */
-
 .formu{
     padding-left: 35px;
 }
@@ -288,7 +245,6 @@ article{
 .descArt1{
     padding: 0px;
     margin: 0px;
-    /* margin-top: 24px; */
 }
 
 .nuitA{
@@ -348,13 +304,6 @@ article{
     
 
 }
-/* .populaire h2{
-    margin-bottom: 25px;
-    margin-top: 40px;
-} */
-
-
-
 
 .img-pop{
     border-radius: 15px 0 0 15px;
@@ -374,9 +323,7 @@ article{
     border-radius: 25px;
     padding: 1%;
     width: 83%;
-    /* -webkit-box-shadow: 5px 4px 5px -1px rgba(0,0,0,0.33);  */
     box-shadow: 5px 4px 5px -1px rgba(0,0,0,0.33);
-    /* margin-top: 4%; */
 }
 
 #activiter{
@@ -466,7 +413,6 @@ article.carte.garde {
 .carte{
     width: 100%;
     padding: 0;
-    /* box-shadow: 5px 5px 9px -6px black */
     box-shadow: 0px 10px 21px -11px black;
     cursor: pointer;
 }
