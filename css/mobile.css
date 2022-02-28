@@ -32,12 +32,14 @@
         margin-right: 35px;
     }
     .li-one .hebergement:active,
-    .li-one .hebergement:focus{
+    .li-one .hebergement:focus,
+    .li-one .hebergement:hover{
         border-top: none;
     }
 
     .li-two .activite:active,
-    .li-two .activite:focus{
+    .li-two .activite:focus,
+    .li-two .activite:hover{
         border-top: none;
     }
     
