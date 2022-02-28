@@ -43,7 +43,7 @@
         border-top: none;
     }
     
-    
+    /* Me sert a mettre ma barre grise en dessous de hebergements et activités et aussi a pouvoir la mettre en bleu */
     header nav ul li {
         width: 50%;
         text-align: center;
@@ -79,7 +79,6 @@
         width: 50px;
         border-radius: 15px;
     }
-    
     .iSearch{
         color: white;
     }
@@ -101,7 +100,6 @@
         padding: 8px;
     }
     
-
    .filtre h3{
       margin-right: 15px;
    }
