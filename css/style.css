@@ -11,6 +11,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
+    padding-top: 9px;
 }
 .logo{
     width: 120px;  
@@ -37,34 +38,41 @@ a{
 }
 .li-one .hebergement:active{
     color: #0065FC;
+    padding-top: 25px;
     border-top: 2px solid #0065FC;
 }
 .li-one .hebergement:hover{
     border-top: 2px solid #0065FC;
+    padding-top: 25px;
     color: #0065FC;
 }
 
 .li-one .hebergement:focus{
     color: #0065FC;
+    padding-top: 25px;
     border-top: 2px solid #0065FC;
 }
 
 .li-two .activite:active{
     color: #0065FC;
+    padding-top: 25px;
     border-top: 2px solid #0065FC;
 }
 
 
 .li-two .activite:hover{
     border-top: 2px solid #0065FC;
+    padding-top: 25px;
     color: #0065FC;
 }
 .li-two .activite:focus{
     border-top: 2px solid #0065FC;
+    padding-top: 25px;
     color: #0065FC;
 } 
 .formu{
     padding-left: 35px;
+    padding-top: 35px;
 }
 .formu h1{
     margin: O;
@@ -101,9 +109,9 @@ input::placeholder{
 button{
     border: none;
     background-color: #0065FC;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 16px 16px 0px;
     height: 50px;
-    width: 150px;
+    width: 140px;
     color: #FFF;
     font-size: large;
 }
