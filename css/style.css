@@ -4,6 +4,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+/* HEADER ET NAV */
 header{
     padding-left: 35px;
 }
@@ -33,6 +34,7 @@ a{
     color: black;
 }
 
+/* BARRE BLEU AU DESSUS DE HEBERGEMENTS ET ACTIVITER */
 .li-one .hebergement{
     margin-right: 75px;
 }
@@ -70,6 +72,8 @@ a{
     padding-top: 25px;
     color: #0065FC;
 } 
+
+/* FORMULAIRE */
 .formu{
     padding-left: 35px;
     padding-top: 35px;
@@ -131,6 +135,8 @@ button{
 .icon i{
     color: black;
 }
+
+/* LES FILTRES */
 .blocFiltre{
     display: flex;
     align-items: center;
@@ -186,6 +192,8 @@ button{
     margin-right: 30px;
 }
 
+/* SECTION INFO, JUSTE EN DESSOUS DES FILTRES */
+
 .info{
     display: flex;
     align-items: center;
@@ -200,6 +208,7 @@ button{
     color: #0065FC;
 }
 
+/* Le main et les differentes sections qu'il contient. */
 main{
     display: flex;
     flex-direction: row;
@@ -209,6 +218,7 @@ main{
     padding-left: 35px;
 }
 
+/* Section hebergement */
 .titre{
     background-color: #F2F2F2;
     width: 58%;
@@ -288,9 +298,8 @@ article{
     height: 139px;
 }
 
-
+/* SECTION POPULAIRE */
 .populaire{
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -309,8 +318,6 @@ article{
 .titre-populaire p{
     font-size: x-large;
     font-weight: bolder;
-    
-
 }
 
 .img-pop{
@@ -322,7 +329,7 @@ article{
 .desc{
     margin-left: 5px;
 }
-
+/* ARTICLE CONTENANT LES ARTICLES */
 .tout{
     display: flex;
     flex-direction: row;
@@ -334,6 +341,7 @@ article{
     box-shadow: 5px 4px 5px -1px rgba(0,0,0,0.33);
 }
 
+/* SECTION ACTIVITER */
 #activiter{
     display: flex;
     flex-direction: column;
@@ -353,6 +361,7 @@ article{
 .bis{
     height: 100%;
 }
+/* Ici la tailles des different articles */
 article.carte.pomegue{
     height: 50%;
 }
@@ -372,23 +381,21 @@ article.carte.garde {
     height: 92%;
     width: 23%;
 }
+/* Ici je rajoute calc 100%-55px qui me permet que ma photo fais 100% de son parent, - 55px, peut importe la taille du parent, elle laissera tjr la meme place en bas et la photo prendra toujours 100% du parent */
 .act1{
     width: 100%;
-    /* height: 400px; */
     height: calc(100% - 55px);
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
 .act2{
     width: 100%;
-    /* height: 150px; */
     height: calc(100% - 55px);
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
 .act3{
     width: 100%;
-    /* height: 120px; */
     height: calc(100% - 55px);
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -396,7 +403,6 @@ article.carte.garde {
 
 .act4{
     width: 100%;
-    /* height: 400px; */
     height: calc(100% - 55px);
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -404,7 +410,6 @@ article.carte.garde {
 
 .act5{
     width: 100%;
-    /* height: 120px; */
     height: calc(100% - 55px);
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -412,7 +417,6 @@ article.carte.garde {
 
 .act6{
     width: 100%;
-    /* height: 150px; */
     height: calc(100% - 55px);
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -435,6 +439,7 @@ article.carte.garde {
     width: auto;
 }
 
+/* Le Footer */
 footer{
     margin: 0;
     padding: 0;
