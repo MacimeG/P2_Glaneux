@@ -280,7 +280,7 @@ article{
 }
 
 .iconGray{
-    color: gray;
+    color: #F2F2F2;
 }
 
 #iconBlack{
@@ -323,7 +323,7 @@ article{
 .img-pop{
     border-radius: 15px 0 0 15px;
     width: 116px;
-    height: 150px;
+    height:calc(99%);
 }
 
 .desc{
@@ -339,6 +339,10 @@ article{
     padding: 1%;
     width: 83%;
     box-shadow: 5px 4px 5px -1px rgba(0,0,0,0.33);
+    height: 20%;
+}
+.tout div{
+    height: 100%;
 }
 
 /* SECTION ACTIVITER */

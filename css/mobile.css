@@ -146,16 +146,16 @@
     padding-left: 1%;
    }
    .tout{
-       height: 149px;
+       height: 140px;
        width: 90%;
         margin-bottom: 3%;
         padding-left: 0px;
     }
    .desc{
-       margin-left: 20px;
+       margin-left: 15px;
    }
    .desc p{
-       padding-bottom: 8%;
+       padding-bottom: 10%;
    }
    .descArt1 {
        margin-top: 0px;
@@ -163,7 +163,6 @@
    
    .img-pop{
     object-fit: cover;
-    height: 150px;
     width: 160px;
    }
 
