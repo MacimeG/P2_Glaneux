@@ -43,12 +43,12 @@ a{
     padding-top: 25px;
     border-top: 2px solid #0065FC;
 }
+
 .li-one .hebergement:hover{
     border-top: 2px solid #0065FC;
     padding-top: 25px;
     color: #0065FC;
 }
-
 .li-one .hebergement:focus{
     color: #0065FC;
     padding-top: 25px;
