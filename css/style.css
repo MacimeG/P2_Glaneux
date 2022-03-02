@@ -38,7 +38,6 @@ a{
 .li-one .hebergement{
     margin-right: 75px;
 }
-
 .li-one .hebergement:hover{
     border-top: 2px solid #0065FC;
     padding-top: 25px;
@@ -54,9 +53,6 @@ a{
     padding-top: 25px;
     border-top: 2px solid #0065FC;
 }
-
-
-
 .li-two .activite:hover{
     border-top: 2px solid #0065FC;
     padding-top: 25px;
