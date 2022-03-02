@@ -218,7 +218,7 @@ main{
     padding-left: 35px;
 }
 
-/* Section hebergement */
+/* Section hebergement que j'ai appeler titre */
 .titre{
     background-color: #F2F2F2;
     width: 58%;
@@ -228,7 +228,7 @@ main{
     padding-right: 4%;
 }
 
-
+/* Fin section titre */
 .finBloc{
     margin-bottom: 4%;
     margin-top: 0;
