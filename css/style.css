@@ -272,7 +272,7 @@ article{
     box-shadow: 1px 5px 10px 2px rgb(0 0 0 / 33%);
     width: 30%;
     margin-right: -28px;
-    height: fit-content;
+    height: auto;
 }
 
 .iconGray{
