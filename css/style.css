@@ -12,10 +12,10 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    padding-top: 9px;
+    padding-top: 20px;
 }
 .logo{
-    width: 120px;  
+    width: 100px;  
 }
 ul{
     display: flex;
@@ -40,32 +40,32 @@ a{
 }
 .li-one .hebergement:hover{
     border-top: 2px solid #0065FC;
-    padding-top: 25px;
+    padding-top: 33px;
     color: #0065FC;
 }
 .li-one .hebergement:focus{
     color: #0065FC;
-    padding-top: 25px;
+    padding-top: 33px;
     border-top: 2px solid #0065FC;
 }
 .li-one .hebergement:active{
     color: #0065FC;
-    padding-top: 25px;
+    padding-top: 33px;
     border-top: 2px solid #0065FC;
 }
 .li-two .activite:hover{
     border-top: 2px solid #0065FC;
-    padding-top: 25px;
+    padding-top: 33px;
     color: #0065FC;
 }
 .li-two .activite:focus{
     border-top: 2px solid #0065FC;
-    padding-top: 25px;
+    padding-top: 33px;
     color: #0065FC;
 } 
 .li-two .activite:active{
     color: #0065FC;
-    padding-top: 25px;
+    padding-top: 33px;
     border-top: 2px solid #0065FC;
 }
 
