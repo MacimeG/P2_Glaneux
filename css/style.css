@@ -451,12 +451,15 @@ footer{
 }
 
 .propo{
-    padding-right: 30px;
+    width: 30%;
+    padding-left: 25px;
 }
 
 .assist{
-    padding-right: 241px;
+    /* padding-right: 241px; */
+    width: 30%;
 }
 .heberge{
-    padding-right: 105px;
+    /* padding-right: 105px; */
+    width: 30%;
 }
