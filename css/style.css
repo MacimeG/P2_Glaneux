@@ -243,7 +243,7 @@ main{
 i{
     color: #0065FC;
 }
-
+/* ce selecteur prends tout les articles */
 article{
     background-color: white;
     width: 30%;
@@ -251,7 +251,7 @@ article{
     padding: 1%;
     cursor: pointer;
 }
-
+/* Ce selecteur prends uniquement les articles de hebergement */
 .article article{
     margin-bottom: 4%;
     box-shadow: 1px 5px 10px 2px rgb(0 0 0 / 33%);
