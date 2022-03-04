@@ -63,7 +63,11 @@
     #activiter{
         width: 100%;
         padding-top: 3%;
-        padding-left: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #activiter h2{
+        padding-left: 5px;
     }
     .allCarte{
         justify-content: space-around;
