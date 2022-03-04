@@ -209,7 +209,6 @@ main{
     display: flex;
     flex-direction: row;
     padding-bottom: 1%;
-    border-radius: 10px 10px 10px 10px;
     flex-wrap: wrap;
     padding-left: 35px;
 }
