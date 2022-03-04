@@ -82,6 +82,9 @@
     .iSearch{
         color: white;
     }
+    .info{
+        padding-left: 25px;
+    }
     main{
         width: 100%;
         flex-direction: column-reverse;
