@@ -242,7 +242,7 @@ main{
 i{
     color: #0065FC;
 }
-/* ce selecteur prends tout les articles */
+/* ce selecteur prends tout les articles ainsi que ceux d'hebergement */
 article{
     background-color: white;
     width: 30%;
@@ -323,7 +323,7 @@ article{
 .desc{
     margin-left: 5px;
 }
-/* ARTICLE CONTENANT LES ARTICLES */
+/* BLOC CONTENANT LES ARTICLES */
 .tout{
     display: flex;
     flex-direction: row;
