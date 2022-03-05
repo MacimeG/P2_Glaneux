@@ -379,7 +379,7 @@ article.carte.garde {
     height: 92%;
     width: 23%;
 }
-/* Ici je rajoute calc 100%-55px qui me permet que ma photo fais 100% de son parent, - 55px, peut importe la taille du parent, elle laissera tjr la meme place en bas et la photo prendra toujours 100% du parent */
+/* Ici je rajoute calc 100%-55px qui me permet que ma photo fais 100% de son parent, - 55px, peut importe la taille du parent, elle laissera tjr la meme place en bas et la photo prendra toujours 100% -55px du parent */
 .act1{
     width: 100%;
     height: calc(100% - 55px);
